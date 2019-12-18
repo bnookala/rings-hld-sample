@@ -1,0 +1,5 @@
+subcomponents:
+  chart:
+    config:
+      nameOverride: doc-release-prod
+      message: "doc-release-prod"

@@ -1,0 +1,15 @@
+name: doc
+type: component
+subcomponents:
+- name: release-dev
+  type: component
+  method: local
+  path: ./release-dev
+- name: release-prod
+  type: component
+  method: local
+  path: ./release-prod
+- name: release-qa
+  type: component
+  method: local
+  path: ./release-qa

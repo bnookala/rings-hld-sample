@@ -1,0 +1,5 @@
+subcomponents:
+  chart:
+    config:
+      nameOverride: doc-release-qa
+      message: "doc-release-qa"

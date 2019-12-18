@@ -1,0 +1,7 @@
+name: ""
+type: component
+subcomponents:
+- name: find
+  type: component
+  method: local
+  path: ./find

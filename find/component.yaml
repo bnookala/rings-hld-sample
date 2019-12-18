@@ -1,0 +1,6 @@
+name: find
+subcomponents:
+- name: doc
+  type: component
+  method: local
+  path: ./doc

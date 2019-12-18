@@ -1,0 +1,11 @@
+name: release-qa
+type: component
+subcomponents:
+- name: chart
+  type: helm
+  method: local
+  path: ../../.././components/container
+- name: static
+  type: static
+  method: local
+  path: ./static

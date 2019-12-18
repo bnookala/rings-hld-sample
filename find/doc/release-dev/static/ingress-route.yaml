@@ -1,0 +1,11 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: doc-release-dev
+spec:
+  routes:
+    - kind: Rule
+      match: 'PathPrefix(`/doc`) && Headers(`Ring`, `release-dev`)'
+      services:
+        - name: doc-release-dev
+          port: 8000
